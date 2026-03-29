@@ -32,46 +32,6 @@ Each folder corresponds to a specific hackathon challenge and contains all relev
 
 ---
 
-## 👥 Team
-
-| Name     | Role                |
-| -------- | ------------------- |
-| Member 1 | Data Preprocessing  |
-| Member 2 | Feature Engineering |
-| Member 3 | Modeling            |
-| Member 4 | Evaluation          |
-| Member 5 | Documentation       |
-
----
-
-## ⚙️ Tools & Technologies
-
-* Python (>= 3.8)
-* pandas, numpy
-* scikit-learn
-* matplotlib, seaborn
-* Jupyter Notebook / Google Colab
-* GitHub for version control
-
----
-
-## 🔁 Workflow
-
-1. Data acquisition and sharing
-2. Exploratory Data Analysis (EDA)
-3. Feature engineering
-4. Model development
-5. Evaluation (F1-score, etc.)
-6. Submission and iteration
-
----
-
-## 📊 Evaluation
-
-Each project is evaluated based on competition-specific metrics (e.g., **F1-score**), with a focus on model performance, interpretability, and reproducibility.
-
----
-
 ## 🤝 Collaboration Guidelines
 
 * Use clear commit messages
