@@ -11,6 +11,13 @@ The objective is to build a **supervised machine learning model** capable of pre
 
 ---
 
+## 📓 Notebook
+
+Access the project notebook here:  
+👉 https://colab.research.google.com/drive/1kC0abUYF0LSGHODmprLDLVX5cR9Ci7K4?usp=sharing
+
+---
+
 ## 🎯 Objective
 
 Given a set of clinical features, predict:
