@@ -46,16 +46,88 @@ The dataset is derived from the **UCI Heart Disease Dataset**, combining data fr
 * University Hospital Zurich (Switzerland)
 * V.A. Medical Center Long Beach (USA)
 
-### Features:
+## 📊 Dataset Description
 
-* Age, sex
-* Chest pain type
-* Blood pressure
-* Cholesterol
-* ECG results
-* Maximum heart rate
-* Exercise-induced angina
-* ... (14 features total)
+The dataset is derived from the **UCI Heart Disease Dataset**, combining patient records from four medical institutions across three countries.
+
+The objective is to predict whether a patient has heart disease based on clinical measurements.
+
+---
+
+## 📁 Files
+
+- **train.csv**  
+  Contains 690 patient records with clinical features and the target label.  
+  Used for training and validation.
+
+- **test.csv**  
+  Contains 230 patient records with clinical features only.  
+  The target label is not provided. Predictions must be generated for submission.
+
+- **sample_submission.csv**  
+  Example submission file with the correct format (`id`, `target`).  
+  Replace the `target` column with your predictions.
+
+---
+
+## 🧾 Features Description
+
+| Column     | Description |
+|-----------|------------|
+| id        | Unique identifier for each patient |
+| age       | Age of the patient (years) |
+| sex       | Biological sex (Male, Female) |
+| cp        | Chest pain type (typical angina, atypical angina, non-anginal, asymptomatic) |
+| trestbps  | Resting blood pressure (mmHg) |
+| chol      | Serum cholesterol (mg/dl) |
+| fbs       | Fasting blood sugar > 120 mg/dl (True/False) |
+| restecg   | Resting ECG results |
+| thalach   | Maximum heart rate achieved |
+| exang     | Exercise-induced angina (True/False) |
+| oldpeak   | ST depression induced by exercise |
+| slope     | Slope of peak exercise ST segment |
+| ca        | Number of major vessels (0–3) *(may contain missing values)* |
+| thal      | Thalassemia type *(may contain missing values)* |
+| origin    | Data collection site |
+| target    | Target variable (0 = no disease, 1 = disease) *(train only)* |
+
+---
+
+## 🧠 Clinical Terms
+
+- **ECG / restecg** → Electrical activity of the heart  
+- **ST depression / oldpeak** → Indicator of reduced blood flow during exercise  
+- **ST segment / slope** → Marker of cardiac stress  
+- **Angina / exang** → Chest pain due to reduced blood flow  
+- **Thalassemia / thal** → Blood disorder affecting oxygen transport  
+- **Fluoroscopy / ca** → Imaging technique showing vessel blockage  
+- **fbs** → High blood sugar, linked to cardiovascular risk  
+
+---
+
+## ⚠️ Important Notes
+
+- `ca` and `thal` contain missing values → must be handled during preprocessing  
+  (e.g., median, mode, or row removal)
+
+- The `id` column:
+  - is **not a feature**
+  - must **not be used for prediction**
+
+- The `origin` column:
+  - indicates the data source
+  - can be used as a feature if relevant
+
+---
+
+## 🎯 Objective
+
+Build a machine learning model to predict the `target` variable:
+
+- **0** → No heart disease  
+- **1** → Heart disease present  
+
+---
 
 ---
 
