@@ -23,6 +23,8 @@ Develop a complete deep learning pipeline that:
 
 📊 **Evaluation Metric:** Macro F1-Score
 
+### Lien vers le dataset : https://drive.google.com/drive/folders/130bAmRfgwOVRnsWDWBv0AFMovja13zbm?usp=sharing
+
 ---
 
 ## 🌍 Clinical Context

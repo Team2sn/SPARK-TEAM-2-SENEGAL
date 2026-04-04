@@ -13,8 +13,6 @@ This repository centralises all our work, experiments, and deliverables across d
 * Maintain clean, reproducible, and well-documented code
 * Track experiments and improve model performance iteratively
 
-### Lien vers le dataset : https://drive.google.com/drive/folders/130bAmRfgwOVRnsWDWBv0AFMovja13zbm?usp=sharing
-
 ---
 
 ## 🗂️ Repository Structure
